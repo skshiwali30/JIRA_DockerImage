@@ -2,7 +2,7 @@
 ## Pre-reqisite:
 Docker must be installed on system.
 
-##Steps:
+## Steps:
 1. Clone this repository to your local.
 
 2. Change the directory to the jira-software folder where the Dockerfile is located.
@@ -11,7 +11,7 @@ Docker must be installed on system.
 
 4. You will get the new docker image and can change its name by executing this command on terminal `docker tag <image-id> <new-name>:<tag>`
 
-##Using preconfigured jira image, follow these steps :
+## Using preconfigured jira image, follow these steps :
 1. Pull the image by using command docker pull `<your repo>/jira-software-v0:8.8.0`.
 
 2. Verify if image is pulled by executing the command `docker images`.
